@@ -54,8 +54,3 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
     def __str__(self):
         """Return string example of user"""
         return self.email
-
-
-
-
-# Create your models here.
